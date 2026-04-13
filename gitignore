@@ -1,0 +1,44 @@
+# ArcGIS file geodatabases — never commit these (too large, binary)
+*.gdb/
+**/*.gdb/
+
+# ArcGIS Pro project files with local paths baked in
+*.aprx
+*.atbx
+
+# AI service connection files — contain API keys
+*.ais
+
+# ArcGIS lock files
+*.lock
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter / ArcGIS Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp and scratch files
+*_AUDITTEMP*
+*_raw*
+scratch/
+temp/
+
+# Large raster downloads — download fresh from source URLs in sources.md
+*.tif
+*.img
+*.ovr
+
+# Credentials and environment files
+.env
+*.key
+
+# Audit script temp outputs (should never be committed)
+*_TEMP_*
