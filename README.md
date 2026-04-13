@@ -2,7 +2,7 @@
 
 **Coastal California Sustainable Initiative — Spatial Analysis Project**
 
-A GeoAI-assisted spatial analysis identifying where predicted coastal erosion and sea level rise exposure intersect with California drinking water system vulnerability. Built using ArcGIS Pro, ArcPy, and AI agents (Claude + ArcGIS Pro AI Assistant beta) as a portfolio deliverable for a Masters in Business Innovation with a creative business focus.
+A GeoAI-assisted spatial analysis identifying where predicted coastal erosion and sea level rise exposure intersect with California drinking water system vulnerability. Built using ArcGIS Pro, ArcPy, and AI agents (Claude + ArcGIS Pro AI Assistant beta).
 
 ---
 
@@ -78,13 +78,14 @@ CoastalCaliforniaLC/
 # Open a Notebook in your CoastalCaliforniaLC project
 # Paste or import data_audit.py and run
 # Output will print to the Notebook console
+# Edit OUTPUT_GDB for different project
 ```
 
 **Requirements:**
 - ArcGIS Pro 3.x with active project open
 - ArcPy (included with ArcGIS Pro)
 - Active map with layers loaded
-- Write access to `CoastalCaliforniaLC.gdb`
+- Write access to `CoastalCaliforniaLC.gdb`*** Or whichever is current project gdb
 
 ---
 
@@ -94,7 +95,7 @@ This project is built as a deliberate test of AI-assisted GIS workflows:
 
 | Agent | Role |
 |-------|------|
-| **Claude (Anthropic)** | Script generation, debugging, README writing, LinkedIn posts |
+| **Claude (Anthropic)** | Script generation, debugging, README writing |
 | **ArcGIS Pro AI Assistant (beta)** | In-Pro tool navigation, parameter guidance, symbolization |
 | **ArcGIS Notebooks Assistant (beta)** | In-notebook code explanation and error troubleshooting |
 | **ArcGIS StoryMaps Assistant (beta)** | Narrative refinement for final public output |
@@ -104,7 +105,7 @@ This project is built as a deliberate test of AI-assisted GIS workflows:
 
 ## Analysis Steps (in progress)
 
-- [x] Step 1 — Data acquisition (4 datasets in GDB)
+- [ ] Step 1 — Data acquisition (4 datasets in GDB - need to collect a few more for DAC/SPAC)
 - [x] Step 2 — Data audit + projection standardization (`data_audit.py`)
 - [ ] Step 3 — Clip all layers to coastal California study area
 - [ ] Step 4 — Spatial overlay analysis (erosion × water systems, SLR × water systems, risk score)
@@ -126,8 +127,8 @@ The goal is not just to fix this project — it is to develop a reusable pattern
 
 ## Contact
 
-Built as a portfolio project for a Masters in Business Innovation (Creative Business focus).
-Documenting the process publicly on LinkedIn.
+Built as a portfolio project.
+Documenting the process publicly.
 
 ---
 
